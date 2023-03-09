@@ -45,7 +45,7 @@ function home() {
       </div>
       <div className='about'>
         <h1> About Us</h1>
-        <p><LoremIpsum p={3} /> </p>
+        <p><LoremIpsum p={4} /> </p>
       </div>
  
       
