@@ -1,0 +1,103 @@
+.banner {
+    
+    background-image: url(../../images/Background.jpg);
+  height:700px ;
+  margin-top: -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+    z-index: -1;
+  }
+.banner > h1 {
+    
+    margin: 5vmax;
+    font: 600 2.5vmax "Roboto";
+  }
+  
+  .banner > p {
+    
+    font: 600 1.4vmax "Lucida Sans";
+  }
+  
+ .works{
+    display: flex;
+  
+    
+    height:400px;
+    background-color:orange;
+    justify-content: space-evenly;
+    z-index: -1;
+   
+    flex-wrap: wrap;
+ }
+  .works>h1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2vmax;
+    height:20px;
+    margin-left: 40%;
+  }
+  .works>div>figcaption{
+    display: flex;
+margin-top: 30px;
+    color: white;
+    margin-left: 45px;
+    font-family: "roboto";
+  }
+ .download{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    height: 500px;
+    z-index: -1;
+    
+ }
+ .left-download>h1{
+    margin:3vmax;
+ 
+ }
+ .left-download>p{
+    width: 60%;
+   
+    margin:3vmax;
+ }
+ 
+ .right-download>img{
+
+    align-items: center;
+    height: 480px;
+    width: 500px;
+ }
+.about{
+    background-image: url(../../images/aboutImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+.about>h1{
+    display: flex;
+    justify-content: center;
+    margin:5vmax;
+    color:whitesmoke;
+    align-items: center;
+    
+}
+.about>p{
+    margin:5vmax;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 20px;
+    
+
+}
+  
+  
