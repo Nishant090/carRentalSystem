@@ -1,6 +1,7 @@
 .footer{
     display: flex;
     background: linear-gradient(to right, #fc4a1a, #f7b733);
+    border-top:2px solid white ;
         margin-top: 50vmax;
         padding: 2vmax;
         color: white;

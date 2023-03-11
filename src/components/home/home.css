@@ -27,14 +27,11 @@
   }
   
  .works{
-    display: flex;
-  
-    
+    display: flex;  
     height:400px;
     background-color:orange;
     justify-content: space-evenly;
     z-index: -1;
-   
     flex-wrap: wrap;
  }
   .works>h1{

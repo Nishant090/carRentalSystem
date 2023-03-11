@@ -1,0 +1,23 @@
+[33mcommit b9f14c448a5846ce81633d00bfae8af919fbcba8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nishant <nishantkhatiwada6@gamil.com>
+Date:   Thu Mar 9 22:30:12 2023 +0545
+
+    commited\
+
+[33mcommit a65e48f5c386575066cd3e9beb15703b7a703cde[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Nishant <nishantkhatiwada6@gamil.com>
+Date:   Wed Mar 8 22:33:38 2023 +0545
+
+    ./app.js
+
+[33mcommit 6d3591dcec231a50ae2c580e7e5c87b670d79586[m
+Author: Nishant <nishantkhatiwada6@gamil.com>
+Date:   Wed Mar 8 22:24:20 2023 +0545
+
+    deleted unneccesary files
+
+[33mcommit c90220629580189a1de0ef43d058ea699e957bc5[m
+Author: Nishangt12 <102284192+Nishangt12@users.noreply.github.com>
+Date:   Wed Mar 8 21:40:26 2023 +0545
+
+    Initialize project using Create React App
