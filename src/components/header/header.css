@@ -4,6 +4,8 @@
     height: 25px;
     justify-content: flex-end;
     padding-top: 7px;
+  
+   
     
     
 }
@@ -19,7 +21,9 @@
 }
 .navbar{
     display: flex;
-    background-color: whitesmoke;
+  
+    width: 100%;
+    background-color: white;
     height: 70px;
     border-bottom: 1px solid white;   
 }
