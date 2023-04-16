@@ -7,26 +7,30 @@ import Button from 'react-bootstrap/Button';
 function signup() {
   return (
     <Fragment>
-        <div className='signup'>
+      <div className='car-left'>
+
+      </div>
+        <div className='login'>
         
-        <Form>
-        <h1> Sign Up</h1>
-      <Form.Group className="mb-3" controlId="email">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="username">
-        <Form.Label>Username</Form.Label>
-        <Form.Control type="username" placeholder="Username" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="password">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Button variant="outline-dark">Register</Button>
-    </Form>
-            
+        <h3>Sign Up </h3>
+  
         </div>
+        <form className='form'>
+  <div className="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email'></input>
+  </div>
+  <div className="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Password'></input>
+  </div>
+  <div className="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword2" placeholder='Confirm Password'></input>
+  </div>
+  
+  <button type="submit" className="btn btn-outline-warning">Submit</button>
+</form>
     </Fragment>
   )
 }

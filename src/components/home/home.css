@@ -1,6 +1,6 @@
 .banner {
-    
-    background-image: url(../../images/Background.jpg);
+  position: relative;
+  background-image: url(../../images/Background.jpg);
   height:700px ;
   margin-top: -10px;
     background-repeat: no-repeat;
@@ -16,16 +16,156 @@
     z-index: -1;
   }
 .banner > h1 {
-    
-    margin: 5vmax;
+  top:300px;
+  position: absolute;
+    left: 100px;
+    margin: 4vmax;
+    width: auto;
     font: 600 2.5vmax "Roboto";
   }
   
   .banner > p {
-    
+    top:250px;
+    position: absolute;
+    left: 280px;
+    width: auto;
     font: 600 1.4vmax "Lucida Sans";
   }
+  .date-box{
+position: relative;
+left:350px;
+background: linear-gradient(to right, #fc4a1a, #f7b733);
+height: 350px;
+width: 550px;
+border-radius: 10px 10px 10px 10px;
+
+box-shadow: 9px 17px 32px -20px rgba(0,0,0,0.75);
+
+}
+.date-box>h1{
+  position: relative;
+  top: 1.5vmax;
+  left: -115px;
+  font: 600 2vmax "Roboto";
+}
+.date-box>.p1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  background-color:white;
+  top: 3.2vmax;
+  right: -50px;
+  font: 400 1vmax "Roboto";
+  height:50px;
+  width: 75px;
+  border: thin solid grey;
+  border-radius: 5px 5px 5px 5px;
+
+}
+.date-box>.p2{
+  position: relative;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  top: 3.9vmax;
+  width: 75px;
+  right: -50px;
+  font: 400 1vmax "Roboto";
+  height:50px;
+  border: thin solid grey;
+  border-radius: 5px 5px 5px 5px;
+}
+.datetime-p{
+  position: absolute;
+  left:63vmax;
+  top:20vmax;
+  background-color: rgb(255, 255, 255);
+  width:300px;
+  height:50px;
+  border-radius: 10px 10px 10px 10px;
+ 
+}
+.datetime-d{
+  position: absolute;
+  left:43.5vmax;
+  top:25vmax;
+  background-color: white;
+  width:300px;
+  height:50px;
+  border-radius: 10px 10px 10px 10px;
+}
+.date-box>button{
+  position: relative;
+  top: 5vmax;
+  left:7.5vmax;
+  font: 400 1.2vmax "Roboto";
+  height:40px;
+  width: 85px;
+}
+  .homeHeading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.8vmax;
+    border-bottom: 2px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 3vmax auto;
+    color: #F16F4B;
+  }
+
+  .container {
+    display: flex;
+    margin: 2vmax auto;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .productCard {
+    width: 15vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    
+  }
+  .productCard > img {
+    width: 14vmax;
+  }
+  .productCard > img {
+    width: 14vmax;
+  }
   
+  .productCard > div>span {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .productCard > p {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+  }
+  .productCard > span {
+    margin: 0.5vmax;
+    color: tomato;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1vmax;
+  }
+  .productCard:hover {
+    box-shadow: 0 0 7px rgba(15, 15, 15, 0.26);
+  
+    transform: translateY(-1vmax);
+  }
  .works{
     display: flex;  
     height:400px;

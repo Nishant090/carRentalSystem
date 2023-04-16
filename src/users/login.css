@@ -1,55 +1,48 @@
-
+.car-left{
+    position: absolute;
+    background-image: url(../images/login-car.jpg);
+    height: 700px;
+    width:450px;
+    background-repeat: no-repeat;
+    top:10vmax;
+    left: 20vmax;
+    margin-bottom: 5vmax;
+}
 .login{
     display: flex;
     flex-direction: row;
-    padding-left: 3vmax;
-    background:linear-gradient(to right, #fc4a1a, #f7b733);
-    height: 500px;
-    width:600px;
-    margin: 5vmax;
-    margin-left: 440px;
+    position: relative;
+    background:rgb(237, 237, 237);
+    height: 570px;
+    width:350px;
+    top: 4.1vmax;
+    left: 49.5vmax;
     z-index: -1;
-    box-shadow: 10px 11px 400px -10px rgba(0,0,0,0.55);
--webkit-box-shadow: 10px 11px 400px -10px rgba(0,0,0,0.55);
--moz-box-shadow: 10px 11px 400px -10px rgba(0,0,0,0.55);
+    margin-bottom: 10vmax;
+    box-shadow: 2px 6px 34px -7px rgba(0,0,0,0.75);
 
 
 }
-.login>form>h1{
+.login>h3{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 30px;
-    border-bottom: 1px solid white;
-    width:300px
+    position: relative;
+    margin-bottom: 20px;
+    width:300px;
+    top: 5vmax;
+    left:30px;
 }
-.login>form{
-    display:flex;
-    color: black;
-    flex-direction: column;
-    margin-top: 2vmax;
-    margin-left: 2vmax;
-   align-items: center;
-    gap:10px;
-    font-family: "Roboto";
-    color: white;
-   
+.form{
+    position:absolute;
+    top: 19vmax;
+    left: 50vmax;
 }
-.login>form>button{
-    color: white;
+.form-control{
+    width: 300px;
 }
+.btn,
 .mb-3{
-    border-bottom: 1px solid white;
-    width: 400px;
-  
-  
+    position: relative;
+    left: 20px;
 }
-input[type=email]{
-    border: white;
-}
-input[type=username]{
-    border: none;
-}
-input[type=password]{
-    border: none;
-}
+
+
